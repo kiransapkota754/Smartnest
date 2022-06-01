@@ -2,13 +2,13 @@
 #include <PubSubClient.h>  // Download and install this library first from: https://www.arduinolibraries.info/libraries/pub-sub-client
 #include <WiFiClient.h>
 
-#define SSID_NAME "Wifi-name"            // Your Wifi Network name
-#define SSID_PASSWORD "Wifi-password"    // Your Wifi network password
+#define SSID_NAME "Sweet Home 5.0Ghz"            // Your Wifi Network name
+#define SSID_PASSWORD "27Dartbrook@"    // Your Wifi network password
 #define MQTT_BROKER "smartnest.cz"       // Broker host
 #define MQTT_PORT 1883                   // Broker port
-#define MQTT_USERNAME "username"         // Username from Smartnest
-#define MQTT_PASSWORD "password"         // Password from Smartnest (or API key)
-#define MQTT_CLIENT "device-Id"          // Device Id from smartnest
+#define MQTT_USERNAME "Kiransapkota754"         // Username from Smartnest
+#define MQTT_PASSWORD "Narik555@"         // Password from Smartnest (or API key)
+#define MQTT_CLIENT "62978215f8510369f2a1c900"          // Device Id from smartnest
 #define FIRMWARE_VERSION "Tutorial-Fan"  // Custom name for this program
 
 WiFiClient espClient;
